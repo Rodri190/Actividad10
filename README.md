@@ -1,18 +1,20 @@
-## Getting Started
+CellStore – Módulo de Ventas de Celulares
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1. Descripción del Caso de Uso
 
-## Folder Structure
+El sistema simula un módulo de ventas de celulares, donde un usuario puede:
 
-The workspace contains two folders by default, where:
+Listar productos del inventario
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Crear órdenes
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Pagar órdenes
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Enviar pedidos
 
-## Dependency Management
+Cancelar pedidos
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Ver historial de órdenes
+
+La interacción se realiza mediante comandos de texto desde la terminal.
+
