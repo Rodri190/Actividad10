@@ -1,5 +1,6 @@
 CellStore – Módulo de Ventas de Celulares
 
+
 1. Descripción del Caso de Uso
 
 El sistema simula un módulo de ventas de celulares, donde un usuario puede:
