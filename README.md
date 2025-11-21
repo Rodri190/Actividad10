@@ -3,19 +3,19 @@ CellStore – Módulo de Ventas de Celulares
 
 1. Descripción del Caso de Uso
 
-El sistema simula un módulo de ventas de celulares, donde un usuario puede:
+        El sistema simula un módulo de ventas de celulares, donde un usuario puede:
 
-Listar productos del inventario
+        Listar productos del inventario
 
-Crear órdenes
+        Crear órdenes
 
-Pagar órdenes
+        Pagar órdenes
 
-Enviar pedidos
+        Enviar pedidos
 
-Cancelar pedidos
+        Cancelar pedidos
 
-Ver historial de órdenes
+        Ver historial de órdenes
 
-La interacción se realiza mediante comandos de texto desde la terminal.
+        La interacción se realiza mediante comandos de texto desde la terminal.
 
