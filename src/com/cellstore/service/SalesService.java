@@ -3,14 +3,6 @@ package com.cellstore.service;
 import com.cellstore.model.Order;
 import com.cellstore.model.CellPhone;
 import java.util.*;
-
-/**
- * SalesService: lógica de ventas.
- *
- * - Recibe InventoryService vía DI (constructor injection).
- * - Crea órdenes, valida stock (utilizando InventoryService), y administra transiciones de estado.
- * - Demuestra la combinación de DI + DAO + State en un flujo de ventas simples.
- */
 public class SalesService {
     private final InventoryService inventory;
     private final Map<String, Order> orders = new LinkedHashMap<>();
@@ -29,7 +21,6 @@ public class SalesService {
             System.out.println("Stock insuficiente para " + phoneId);
             return null;
         }
-        // Reservamos stock al crear la orden (simple)
         boolean ok = inventory.reduceStock(phoneId, qty);
         if (!ok) {
             System.out.println("No se pudo reservar stock.");
@@ -45,7 +36,6 @@ public class SalesService {
 
     public Collection<Order> listOrders() { return orders.values(); }
 
-    // operaciones que delegan a State
     public void payOrder(String orderId) {
         Order o = orders.get(orderId);
         if (o == null) { System.out.println("Orden no encontrada."); return; }

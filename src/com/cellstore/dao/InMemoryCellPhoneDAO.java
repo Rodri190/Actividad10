@@ -3,10 +3,6 @@ package com.cellstore.dao;
 import com.cellstore.model.CellPhone;
 import java.util.*;
 
-/**
- * Implementación en memoria del DAO (solo para demostración y tests).
- * Mantiene los datos en un HashMap interno.
- */
 public class InMemoryCellPhoneDAO implements CellPhoneDAO {
     private final Map<String, CellPhone> store = new HashMap<>();
 

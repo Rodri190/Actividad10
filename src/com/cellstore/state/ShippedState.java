@@ -1,10 +1,6 @@
 package com.cellstore.state;
 
 import com.cellstore.model.Order;
-
-/**
- * Estado "Shipped" (enviado).
- */
 public class ShippedState implements OrderState {
     @Override public String name() { return "SHIPPED"; }
 

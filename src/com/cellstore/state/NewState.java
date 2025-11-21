@@ -2,9 +2,6 @@ package com.cellstore.state;
 
 import com.cellstore.model.Order;
 
-/**
- * Estado "New" (nueva orden).
- */
 public class NewState implements OrderState {
     @Override public String name() { return "NEW"; }
 

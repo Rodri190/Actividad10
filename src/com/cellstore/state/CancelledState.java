@@ -2,9 +2,6 @@ package com.cellstore.state;
 
 import com.cellstore.model.Order;
 
-/**
- * Estado "Cancelled".
- */
 public class CancelledState implements OrderState {
     @Override public String name() { return "CANCELLED"; }
 

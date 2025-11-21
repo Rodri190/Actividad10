@@ -2,9 +2,6 @@ package com.cellstore.state;
 
 import com.cellstore.model.Order;
 
-/**
- * Estado "Paid" (pagada).
- */
 public class PaidState implements OrderState {
     @Override public String name() { return "PAID"; }
 
